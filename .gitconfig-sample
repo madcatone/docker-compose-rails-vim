@@ -1,0 +1,29 @@
+[user]
+    name = MadCatone
+    email = madcatone1@gmail.com
+[alias]
+    st = status
+    l = log
+    a = add
+    df = diff
+    s = show
+    cm = commit
+    ckt = checkout
+    br = branch
+    rb = rebase
+    co = checkout
+    rv = remote -v
+    rd = remote remove
+    pl = pull
+    ph = push
+    cmm = commit -m
+[apply]
+        whitespace = nowarn
+[color]
+        ui = true
+[commit]
+        template = /home/hch/.gittemplate
+[core]
+        editor = vim
+[http]
+        sslverify = false
